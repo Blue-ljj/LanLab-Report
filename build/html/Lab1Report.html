@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dependency Analysis and Dependency Graph on EnglishPal &#8212; lab report  documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="dependency-analysis-and-dependency-graph-on-englishpal">
+<h1><strong>Dependency</strong> <strong>Analysis and Dependency Graph</strong> <strong>on EnglishPal</strong><a class="headerlink" href="#dependency-analysis-and-dependency-graph-on-englishpal" title="Permalink to this headline">¶</a></h1>
+<p>Author: 周智豪、顾晓楠、费宇馨、蓝嘉婕</p>
+<p>Date: 2021/5/18</p>
+</div>
+<div class="section" id="introduction">
+<h1><em><strong>*Introduction*</strong></em><a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<p>We want to avoid the Big Ball of Mud antipattern in our software application.So we do the dependency analysis and dependency graph for project EnglishPal.</p>
+</div>
+<div class="section" id="materials-and-methods">
+<h1><em><strong>*Materials and Methods*</strong></em><a class="headerlink" href="#materials-and-methods" title="Permalink to this headline">¶</a></h1>
+<p>EnglishPal is based on python. In this experiment, we do dependency analysis and draw dependency graph about it. We use Snakefood[1] tool to generate module level dependency graph, and use Mermaid tool to draw class / function level dependency graph.</p>
+</div>
+<div class="section" id="results">
+<h1><em><strong>*Results*</strong></em><a class="headerlink" href="#results" title="Permalink to this headline">¶</a></h1>
+<ol class="simple">
+<li><p>The module-level dependency graph of EnglishPal</p></li>
+</ol>
+<p>Code: <a class="reference external" href="https://www.kdocs.cn/l/cgn6UdUwcDss">EnglishPalDependency(Graphviz).txt</a></p>
+<p>PDF: <a class="reference external" href="https://www.kdocs.cn/l/cjtp9Zu5mOUw">snakefood.pdf</a></p>
+<ol class="simple">
+<li><p>The class/function-level dependency graph of EnglishPal</p></li>
+</ol>
+<p>Code: <a class="reference external" href="https://www.kdocs.cn/l/cpE7I9z1USwN">mermaid.txt</a></p>
+</div>
+<div class="section" id="pros-cons">
+<h1><em><strong>*Pros&amp;Cons*</strong></em><a class="headerlink" href="#pros-cons" title="Permalink to this headline">¶</a></h1>
+<p>Pros: The project has low complexity and clear framework,so it’s easier to maintain the code later.</p>
+<p>Cons: Hinder technological innovation,and there are still many bugs in the project that need to be improved.</p>
+</div>
+<div class="section" id="discussions">
+<h1><em><strong>*Discussions*</strong></em><a class="headerlink" href="#discussions" title="Permalink to this headline">¶</a></h1>
+<p>The Snakefood tool can analyze dependencies in project code, but only at the module level. Mermaid can plot the dependency of our input into a function level dependency graph.</p>
+<p>Through the dependency analysis and the drawing of the dependency graph of EnglishPal, we can see the framework structure of the project more clearly, which provides convenience for the maintenance and update of the code in the future.</p>
+</div>
+<div class="section" id="references">
+<h1><em><strong>*References*</strong></em><a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h1>
+<p>[1] “Snakefood User Manual”, http://furius.ca/snakefood/doc/snakefood-doc.html [Online].</p>
+<p>[2] “Graphviz Online”, https://dreampuf.github.io/GraphvizOnline/ [Online]</p>
+<p>[3] “A Brief Guide How to Write a Computer Science Lab Report”, https://thehackpost.com/a-brief-guide-how-to-write-a-computer-science-lab-report.html [Online]</p>
+<p>[4] “Read the Docs”, https://readthedocs.org/ [Online]</p>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">lab report</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, 周智豪、顾晓楠、费宇馨、蓝嘉婕.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/Lab1Report.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
